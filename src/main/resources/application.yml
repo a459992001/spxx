@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://120.79.44.196:3306/leaveword?characterEncoding=utf8&useSSL=false
-    username: root
-    password: 123456
+    url: jdbc:mysql:///leaveword?characterEncoding=utf8&useSSL=false
+    username: 
+    password: 
   jpa:
     hibernate:
       ddl-auto: update
